@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.ProfileActivity"
+    android:background="@drawable/sakti">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home3"
+        android:src="@drawable/ic_arrow_7" />
+
+    <ScrollView
+        android:layout_below="@id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/besar"
+                android:text="Settings"
+                android:textColor="@color/colorwhite"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:src="@drawable/user_pic"
+                android:layout_gravity="center"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#f2f2f2"
+                app:civ_border_overlay="true">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/iv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/colorwhite"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                tools:text="Muhammad.Kaspul Anwar" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/besar"
+                android:textColor="@color/colorwhite"
+                android:layout_gravity="center"
+                tools:text="ka0171729@gmail.com" />
+
+            <TextView
+                android:id="@+id/tv_my_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_developer"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Developer"
+                android:textColor="@color/colorwhite"
+                android:textSize="16sp"/>
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorwhite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_my_wallet" />
+
+            <TextView
+                android:id="@+id/tv_edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_bahasa"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Bahasa"
+                android:textColor="@color/colorwhite"
+                android:textSize="16sp"/>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorwhite"/>
+
+
+            <TextView
+                android:id="@+id/tv_edit_profile3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:drawableLeft="@drawable/ic_bantuan"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Bantuan"
+                android:textColor="@color/colorwhite"
+                android:textSize="16sp"/>
+
+
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorwhite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_edit_profile" />
+
+
+            <TextView
+                android:autoLink="web"
+                android:id="@+id/tv_edit_profile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/grad"
+                android:drawableLeft="@drawable/insta"
+                android:drawablePadding="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/linktoinsta"
+                android:textColor="#000046"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:autoLink="web"
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginEnd="36dp"
+                android:background="@drawable/grad"
+                android:drawableLeft="@drawable/fb"
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/linktofacebook"
+                android:textColor="#000046"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:autoLink="web"
+                android:id="@+id/beranda"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/grad"
+                android:drawableLeft="@drawable/telegram"
+                android:text="Telegram Developer Klik Disini"
+                android:textColor="#000046"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

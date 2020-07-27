@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">UniskaBanjarmasinApplication</string>
+    <string name="linktoinsta">
+        <a href="https://www.instagram.com/ka0171729x/">Instagram Developer Klik Disini</a>
+    </string>
+    <string name="linktofacebook">
+        <a href="https://www.facebook.com/m.Kaspul.Anwar">Facebook Developer Klik Disini</a>
+    </string>
+
+    <string name="linktowa">
+        <a href="081254457842/">Facebook Developer Klik Disini</a>
+    </string>
+    <string name="solusibelajar">Solusi Belajar MySQL</string>
+    <string name="title3">Indikator Pembelajaran agar mahasiswa mampu mengoperasikan MySQL\nSemoga dengan ada materi dari BAPAK ACHMAD SOLIHIN\nkita dapat belajar bersama sama di aplikasi ini OK Selamat Belajar!!!</string>
+    <string name="lewati_perkenalan">Lewati Perkenalan</string>
+    <string name="lanjut_kan">Selanjutnya</string>
+    <string name="order_tiket">Order Tiket</string>
+    <string name="desc_ob2">Tidak khawatir ketinggalan update flim baru</string>
+    <string name="isi_dompet">Dompet Ku</string>
+    <string name="desc_ob3">Gunakan e-wallet untuk\ntransaksi tiket nonton</string>
+    <string name="mulai_now">Mulai Sekarang</string>
+    <string name="silahkan_login">Silahkan Login</string>
+    <string name="nama_user">Nama</string>
+    <string name="password">Password</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="masuk_akun">Login</string>
+    <string name="silahkan_daftar">Silahkan Daftar</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="poto_upload">Upload Photo</string>
+    <string name="selamt_datang">Selamat Datang</string>
+    <string name="upload_nanti">Upload Nanti</string>
+    <string name="simpan_lanjut"><![CDATA[Simpan & Lanjutkan]]></string>
+    <string name="muhammad">Kaspul Anwar</string>
+    <string name="now_play">Segera Tayang</string>
+    <string name="coming_soon">Akan  Tayang  Segera</string>
+    <string name="desc_lagi">Film ini berkisah tentang Ateng dan kembarannya Agung yang  selama ini terpisah. Ateng dan Iskak untuk pertama kalinya pergi  ke Jakarta. Tanpa disangka, Ateng bertemu dengan Agung yang  memiliki paras dan bentuk tubuh yang sama dengan dirinya. Iskak  dan asisten pribadi Agung, si Cemplon juga sama terkejut dengan  mereka. Akhirnya terkuaklah kenyataan bahwa mereka adalah  saudara kembar yang terpisahkan. Tanggal rilis: 7 Januari 2019 (Indonesia)</string>
+    <string name="pilih_bangku">Pilih Bangku</string>
+    <string name="ngaran_ikam">Username</string>
+    <string name="duit_wara">Rp1000000</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="flim_komedi">Flim  Komedi</string>
+    <string name="pembelian_tiket">Selamat Menonton ^_^</string>
+    <string name="desc_sukses">Tiket telah berhasil dibeli\ndan selamat menikmati film</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="checkout">Checkout</string>
+    <string name="jam_nonton">Jam Nonton</string>
+    <string name="waktu_tanggal"><![CDATA[Waktu & Tanggal]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="desc_tiket">Duta Mall, Banjarmasin Lt3</string>
+    <string name="saldo">Dompet Ku</string>
+    <string name="layar_bioskop">Layar Bioskop</string>
+    <string name="hari_ini">Sudah Di Tonton</string>
+    <string name="ampat">10 Movie</string>
+    <string name="kapan">Kapan</string>
+    <string name="bangku_ku">Bangku Ku</string>
+    <string name="muha">Profile ku</string>
+    <string name="bahasa_ku">Bahasa ku</string>
+    <string name="bantuan">Bantuan Devlop</string>
+</resources>

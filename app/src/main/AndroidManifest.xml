@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.kaspulanwar.SQLITE">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.noActionBar">
+        <activity android:name=".onboarding.OnBoarding3Activity"></activity>
+        <activity android:name=".MateriUtsActivity" />
+        <activity android:name=".MateriTeksActivity" />
+        <activity android:name=".Location.LocationUserActivity" />
+        <activity android:name=".onboarding.Onboarding1Activity" />
+        <activity android:name=".latihan.latihanuas.ResultLatihanUasActivity" />
+        <activity android:name=".latihan.latihanuas.LatihanUasActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".latihan.soal.ResultBab6Activity" />
+        <activity android:name=".latihan.soal.LatihanBab6Activity" />
+        <activity android:name=".latihan.ResultBab5Activity" />
+        <activity android:name=".latihan.LatihanBab5Activity" />
+        <activity android:name=".latihan.ResultBab4Activity" />
+        <activity android:name=".latihan.LatihanBab4Activity" />
+        <activity android:name=".latihan.ResultBab3Activity" />
+        <activity android:name=".latihan.LatihanBab3Activity" />
+        <activity android:name=".latihan.ResultBab2Activity" />
+        <activity android:name=".latihan.LatihanBab2Activity" />
+        <activity android:name=".latihan.soal.LatihanHomeScreenActivity" />
+        <activity android:name=".latihan.ResultActivity" />
+        <activity android:name=".latihan.LatihanActivity" />
+        <activity android:name=".babvideo.BabVideoActivity" />
+        <activity android:name=".HomeScreenActivity" />
+        <activity android:name=".sign.signup.PhotoScreenActivity" />
+        <activity android:name=".sign.signup.SignUpActivity" />
+        <activity android:name=".sign.signin.SignInActivity" />
+        <activity android:name=".onboarding.OnboardingTwoActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

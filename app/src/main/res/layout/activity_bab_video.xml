@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".babvideo.BabVideoActivity"
+    android:background="@drawable/sakti"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/gradient_bab"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle"
+            android:padding="6dp"
+            android:src="@drawable/ic_arrow_7" />
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_wearing_a_mask__monochromatic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merancang Database\n Dari Pemula Sampai Mahir"
+        android:fontFamily="@font/reguler"
+        android:textSize="16dp"
+            android:layout_gravity="center"
+        android:textColor="#172646"
+            android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/bab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab1\nMerancang Database"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_below="@id/bab1"
+                android:id="@+id/bab2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab2\nDasar Dasar Sql"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_below="@id/bab2"
+                android:id="@+id/bab3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab3\nFungsi Fungsi Mysql"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_below="@id/bab3"
+                android:id="@+id/bab4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab4\nPerintah Mysql Lanjutan"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_below="@id/bab4"
+                android:id="@+id/bab5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab5\nAdministrasi Dan Keamanan Mysql"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_below="@id/bab5"
+                android:id="@+id/bab6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/home_linear"
+                android:drawableLeft="@drawable/videojar"
+                android:text="Materi Bab6\nTrigger Dan Views"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

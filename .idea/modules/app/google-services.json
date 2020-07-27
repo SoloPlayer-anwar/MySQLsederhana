@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180432436383",
+    "firebase_url": "https://uniskabanjarmasinapplica-3b613.firebaseio.com",
+    "project_id": "uniskabanjarmasinapplica-3b613",
+    "storage_bucket": "uniskabanjarmasinapplica-3b613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180432436383:android:a1c1e2352cf468151436aa",
+        "android_client_info": {
+          "package_name": "com.kaspulanwar.MySQLwarSistemInformasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180432436383-rtn6v3qglh56h6ahq3l4gi8agv22m55q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaspulanwar.MySQLwarSistemInformasi",
+            "certificate_hash": "e3d4bf480da60cf4de2a3af8447b59b4bc4b032b"
+          }
+        },
+        {
+          "client_id": "180432436383-48ma2197874ronrg4ricqvjnoj8l7h5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaSwvUbH7rv8o4igdbI-Vp8Ok0ycy0VOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180432436383-48ma2197874ronrg4ricqvjnoj8l7h5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

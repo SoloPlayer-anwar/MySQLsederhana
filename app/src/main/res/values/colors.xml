@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15E624</color>
+    <color name="colorPrimaryDark">#000046</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorblue">#0B1534</color>
+    <color name="colorbluegrey">#2C2100</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color  name="yellow">#EED571</color>
+    <color name="pink">#D81B60</color>
+    <color name="gradient">#141e30</color>
+    <color name="duit">#f5af19</color>
+    <color name="splash">#1E3145</color>
+</resources>

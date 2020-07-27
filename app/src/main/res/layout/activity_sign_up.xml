@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".sign.signup.SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sakti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:padding="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_arrow_7"
+        android:background="@drawable/home_linear"/>
+
+    <ImageView
+        android:id="@+id/daftar_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/daftar" />
+
+
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/chango"
+        android:text="Silahkan Daftar"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorwhite"/>
+
+
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:inputType="text"
+            android:textColor="#000046"
+            android:textColorHint="#2ca7e0"
+            android:background="@drawable/suhaib"
+            android:drawableLeft="@drawable/person"
+            android:hint="Username"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:inputType="textPassword"
+            android:textColor="#000046"
+            android:textColorHint="#2ca7e0"
+            android:background="@drawable/suhaib"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/finger"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:inputType="text"
+            android:textColor="#000046"
+            android:textColorHint="#2ca7e0"
+            android:background="@drawable/suhaib"
+            android:layout_marginTop="20dp"
+            android:hint="Nama"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/nama"
+            android:drawablePadding="8dp"/>
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:inputType="text"
+            android:textColor="#000046"
+            android:textColorHint="#2ca7e0"
+            android:background="@drawable/suhaib"
+            android:layout_marginTop="20dp"
+            android:hint="Gmail"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/gmail"
+            android:drawablePadding="8dp"/>
+
+        <Button
+            android:id="@+id/save_akun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/gradient_home"
+            android:text="Save Akun"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

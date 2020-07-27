@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172646"
+    tools:context=".onboarding.Onboarding1Activity">
+
+    <ImageView
+        android:id="@+id/ob1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_ob1"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/awal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ob1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/besar"
+        android:text="Solusi Belajar MySQL"
+        android:textColor="#f2f2f2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/awal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/reguler"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Jika terjadi error di bagian foto silahkan masuk ke profile lalu bantuan\n Semoga aplikasi ini dapat membantu kawan kawan dalam belajar MySQL"
+        android:textColor="#f2f2f2"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="6dp"
+        android:text="Lanjutkan"
+        android:textColor="#f2f2f2"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skipall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bold"
+        android:padding="7dp"
+        android:text="Lewati"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

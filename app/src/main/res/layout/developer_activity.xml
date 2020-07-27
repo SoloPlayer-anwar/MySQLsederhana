@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sakti"
+    app:layout_constraintCircleRadius="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/circle"
+                    android:src="@drawable/close" />
+
+
+                <ImageView
+                    android:id="@+id/securi"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_security_two_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Developer : Muhammad Kaspul Anwar\nJurusan : Sistem Informasi\nSemester : 2\nUniversitas : Uniska Banjarmasin\n\nVideo Maker : Abdul Latif\nDesign Logo : Abdul Latif\n\nMateri : ACHMAD SOLICHIN, HTTP://ACHMATIM.NET  UNIVERSITAS BUDI L UHUR, JAKARTA\n\nMateri Video Uas : Bapak Sandhika Galih\nChannel You tube : Web Progamming Unpas"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorwhite"/>
+
+
+
+
+            </LinearLayout>
+
+</RelativeLayout>
